@@ -30,9 +30,21 @@ function threeAndFive(number){
   }
 }
 
-// Call
+// Bonus
+function triple(number) {
+    const listTriple = [];
+    for(let i = 0; i < number.length;i++) {
+        const num = number[i];
+        const result = num * 3;
+        
+        listTriple.push(result);
+    }
+    return listTriple;
+}
+
+//Call
 countToFifty();
 countFromOne(5);
 threeAndFiveInFifty();
 threeAndFive(20);
-
+console.log(triple([5, 9, 10]));
