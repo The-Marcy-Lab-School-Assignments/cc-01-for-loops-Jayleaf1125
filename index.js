@@ -47,4 +47,4 @@ countToFifty();
 countFromOne(5);
 threeAndFiveInFifty();
 threeAndFive(20);
-console.log(triple([5, 9, 10]));
+console.log(triple([5, 20, 27, 36]));
